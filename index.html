@@ -6,6 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-Z62859Q8BV"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-Z62859Q8BV");
+  </script>
   <body>
     <div style="display: block; width: 100%">
       <div
@@ -19,10 +33,66 @@
         "
       >
         <h1>Hello</h1>
-        <button style="padding: 20px 30px; width: 150px">Click here</button>
-        <p>or</p>
-        <button style="padding: 20px 30px; width: 150px">Click this</button>
+        <div
+          style="
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            margin-top: 20px;
+          "
+        >
+          <button style="padding: 20px 30px; width: 150px">Click here</button>
+          <p>or</p>
+          <button style="padding: 20px 30px; width: 150px">Click this</button>
+        </div>
       </div>
+
+      <div
+        style="
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          text-align: center;
+          width: 100%;
+          margin-top: 50px;
+        "
+      >
+      <h2>Form</h2>
+      <p style="width: 40%;  margin-top: -10px; padding: 20px;">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+      <form action="submit" style="display: flex; flex-direction: column; gap: 20px;">
+        <input type="text" placeholder="enter a name...">
+        <select name="cat" id="cat">
+            <option value="british">British</option>
+            <option value="himalayan">Himalayan</option>
+        </select>
+        <textarea name="opinion" id="opinion" placeholder="Say what you want..." cols="30" rows="10"></textarea>
+        <button style="padding: 20px 30px; width: 150px">Submit this</button>
+      </form>
+
+      <div
+        style="
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          text-align: center;
+          width: 40%;
+          gap: 10px;
+          margin-top: 50px;
+        "
+      >
+      <h2>Some Fact</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus malesuada fringilla dolor. Suspendisse eget cursus quam. Nam porttitor, massa ac suscipit aliquet, leo nunc pharetra turpis, commodo suscipit lorem ex in orci. Integer vitae nulla vel justo molestie rutrum. Aenean ut metus vel nibh consectetur semper sed eu nisl. Mauris bibendum metus in dolor tincidunt cursus. Phasellus varius tortor vitae eros ultrices laoreet. Donec mi dolor, condimentum non lacus in, euismod ullamcorper lectus.</p>
+      <p>Maecenas luctus convallis sapien ut pellentesque. Morbi id orci molestie, accumsan mi sit amet, fringilla ex. Nunc ornare facilisis porttitor. Integer et dignissim elit. Proin dictum molestie velit, sit amet fermentum orci auctor id. Nam aliquet ornare lectus, et sodales est viverra sed. Vivamus eu ex aliquet, bibendum leo quis, lobortis elit. Donec quis tincidunt risus. Pellentesque id sodales risus. In consequat, sapien at varius laoreet, lectus leo feugiat augue, sit amet sodales felis sem nec eros. Vivamus luctus feugiat nisi ac elementum. Integer nulla lorem, varius at enim sodales, feugiat elementum est. Donec consectetur justo augue, eget tempor turpis molestie sit amet. Morbi convallis dolor id velit ultricies, pellentesque tristique felis sodales. Curabitur vitae massa orci.</p>
+      <p>Proin non vehicula tortor. Etiam aliquet tortor vitae maximus vestibulum. Nunc lacinia tincidunt tortor eu lobortis. Sed maximus risus sed commodo euismod. Curabitur eros ante, pharetra ut odio sed, bibendum porta elit. Praesent et massa ipsum. Suspendisse maximus non nisi sed blandit. Aliquam erat volutpat. Nunc ornare diam sit amet magna ornare eleifend. Morbi tortor risus, lobortis non neque at, viverra pulvinar libero.</p>
+      <p>Sed pharetra commodo posuere. Maecenas faucibus gravida mi, vel accumsan erat convallis at. Nulla aliquet turpis quam, eget consectetur nisi laoreet et. Maecenas velit odio, hendrerit ac arcu eu, dignissim sollicitudin urna. Cras at elit tempus, convallis lorem quis, posuere tortor. In hac habitasse platea dictumst. Nam sed ornare nibh. Morbi tempus et ex at lacinia. Morbi in mauris ac mauris sollicitudin luctus. Nam blandit urna sit amet mattis semper.</p>
+      <p>Proin non pharetra tellus, sed pretium dolor. Cras a feugiat augue, non bibendum turpis. Sed ultrices vulputate risus, rutrum fermentum erat molestie sed. Suspendisse eu mattis sem, nec maximus mauris. Nulla nisl nisi, venenatis a malesuada id, ultrices sed urna. Nullam imperdiet nisi et ante tincidunt pretium. Nunc in lectus faucibus, molestie lorem id, pretium augue. Phasellus congue erat vel pulvinar egestas. Mauris fringilla pharetra sapien sit amet consequat. Quisque pretium enim a aliquam venenatis. Maecenas eleifend tortor in orci rutrum, sed semper urna venenatis. Duis eu feugiat felis, vitae auctor neque. Mauris eu metus tellus. Quisque gravida quis elit et efficitur. Quisque ac mattis orci, eu convallis augue.</p>
+      </div>
+
+      <h2 style="padding: 300px 0;">Keep scrolling,</h2>
+
+      <p style="padding-top: 700px;">End of the page.</p>
     </div>
   </body>
 </html>
