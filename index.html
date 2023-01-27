@@ -33,6 +33,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
   </head>
 
   <body>
@@ -46,155 +51,227 @@
       ></iframe
     ></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <div style="display: block; width: 100%">
-      <div
-        style="
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          flex-direction: column;
-          text-align: center;
-          width: 100%;
-        "
-      >
-        <h1>Hello</h1>
-        <div
-          style="
-            display: flex;
-            align-items: center;
-            gap: 50px;
-            margin-top: 20px;
-          "
-        >
-          <button style="padding: 20px 30px; width: 150px" id="click-here">
-            Click here
-          </button>
-          <p>or</p>
-          <button style="padding: 20px 30px; width: 150px" id="click-this">
-            Click this
-          </button>
+    <div class="swiper-section">
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <h1>The 1st Slider</h1>
+            <p>A href target = "_blank" page component.</p>
+            <a
+              id="btn-click-target"
+              href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjzqrCbztz8AhUS5XMBHYvtCjcQPAgI"
+              target="_blank"
+              >Button</a
+            >
+          </div>
+          <div class="swiper-slide">
+            <h2>The 2nd Slider</h2>
+            <p>A href URL page component.</p>
+            <a
+              href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjzqrCbztz8AhUS5XMBHYvtCjcQPAgI"
+              >Button</a
+            >
+          </div>
+          <div class="swiper-slide">
+            <h2>The 3rd Slider</h2>
+            <p>This is the GA 4 testing page.</p>
+          </div>
         </div>
       </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
 
-      <div
-        style="
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          flex-direction: column;
-          text-align: center;
-          width: 100%;
-          margin-top: 50px;
-        "
-      >
-        <h2>Form</h2>
-        <p style="width: 40%; margin-top: -10px; padding: 20px">
-          There are many variations of passages of Lorem Ipsum available, but
-          the majority have suffered alteration in some form, by injected
-          humour, or randomised words which don't look even slightly believable.
-          If you are going to use a passage of Lorem Ipsum, you need to be sure
-          there isn't anything embarrassing hidden in the middle of text. All
-          the Lorem Ipsum generators on the Internet tend to repeat predefined
-          chunks as necessary, making this the first true generator on the
-          Internet. It uses a dictionary of over 200 Latin words, combined with
-          a handful of model sentence structures, to generate Lorem Ipsum which
-          looks reasonable. The generated Lorem Ipsum is therefore always free
-          from repetition, injected humour, or non-characteristic words etc.
-        </p>
-        <form
-          action="submit"
-          style="display: flex; flex-direction: column; gap: 20px"
-        >
-          <input type="text" placeholder="enter a name..." />
-          <select name="cat" id="cat">
-            <option value="british">British</option>
-            <option value="himalayan">Himalayan</option>
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <div class="content-section">
+      <div class="content-wrapper">
+        <h2>Just A <span>FACT</span></h2>
+        <div class="loren-content">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non leo
+            eu massa gravida luctus. Ut at porta arcu. Proin feugiat, lacus ut
+            interdum malesuada, massa felis efficitur erat, non hendrerit tortor
+            magna in enim. In in dolor mauris. Nunc maximus elementum augue id
+            consequat. Phasellus in tempus ex. Suspendisse mauris dui, bibendum
+            porttitor ipsum pharetra, luctus tristique justo. Suspendisse a eros
+            id lorem pulvinar imperdiet. Vestibulum tempus, augue vitae
+            vulputate varius, nulla purus faucibus ipsum, eu viverra tellus
+            neque in ipsum.
+          </p>
+          <p>
+            Quisque commodo mi vitae iaculis imperdiet. Lorem ipsum dolor sit
+            amet, consectetur adipiscing elit. Aliquam volutpat orci vitae
+            varius luctus. Sed fermentum lectus vel consectetur imperdiet. Proin
+            pharetra tellus nec pulvinar pulvinar. Nam sit amet velit tempus
+            diam elementum posuere. Proin in erat mattis, pellentesque erat non,
+            pulvinar odio. Integer dapibus leo eu turpis vulputate, sit amet
+            malesuada mauris convallis. Phasellus pulvinar tincidunt orci id
+            consequat. Nunc at nisi ac metus bibendum egestas eget eu sapien.
+            Pellentesque molestie eros vitae mi posuere auctor. Vivamus pharetra
+            diam at tristique sagittis. Sed a ante sit amet ipsum volutpat
+            facilisis. Aenean ac gravida odio. In posuere mi est, fringilla
+            hendrerit leo maximus nec. Donec eget tincidunt orci.
+          </p>
+          <p>
+            Aliquam et metus at augue auctor scelerisque a ut nulla. In
+            sollicitudin malesuada sapien, et rutrum nunc eleifend et.
+            Pellentesque habitant morbi tristique senectus et netus et malesuada
+            fames ac turpis egestas. Donec odio dolor, placerat vel libero eu,
+            mattis malesuada nisi. Aliquam erat volutpat. Integer non tincidunt
+            massa, id malesuada nulla. Vivamus fringilla mollis ultricies.
+            Vivamus vehicula elit a lacus laoreet, sit amet iaculis velit
+            egestas. Vestibulum ante ipsum primis in faucibus orci luctus et
+            ultrices posuere cubilia curae; Pellentesque habitant morbi
+            tristique senectus et netus et malesuada fames ac turpis egestas.
+            Proin vel elementum nulla.
+          </p>
+          <p>
+            Sed porttitor varius neque ac tincidunt. Duis elit sapien, sagittis
+            eget turpis vel, fringilla gravida eros. Curabitur nibh augue,
+            varius et cursus a, fermentum non leo. Nunc ultrices pellentesque
+            lobortis. Nam efficitur, sapien nec fermentum tempus, ante orci
+            elementum risus, vulputate lacinia ipsum augue in diam. Etiam in
+            urna cursus, laoreet nisl ac, tristique turpis. Nunc lacinia dui sit
+            amet velit pharetra ultricies.
+          </p>
+          <p>
+            Quisque pellentesque erat quis purus ultricies congue. Curabitur
+            ullamcorper enim in viverra pretium. Phasellus tempus elit sed
+            libero aliquet, vitae pellentesque nisi lacinia. Aenean lorem neque,
+            consequat nec efficitur vel, bibendum et massa. Phasellus aliquet
+            dui a arcu pretium faucibus. Cras malesuada faucibus quam, eu
+            blandit massa auctor ut. Curabitur vel posuere quam. Ut fringilla
+            turpis sit amet felis ullamcorper euismod. Suspendisse cursus orci
+            ut ligula vehicula, eget gravida ligula interdum.
+          </p>
+          <p>
+            Etiam ullamcorper fermentum lectus, et interdum felis placerat sit
+            amet. In ex lacus, rutrum quis cursus eget, tempus finibus velit.
+            Morbi sed interdum nibh. Orci varius natoque penatibus et magnis dis
+            parturient montes, nascetur ridiculus mus. Vestibulum accumsan
+            semper diam suscipit facilisis. Aliquam metus mauris, tincidunt ac
+            condimentum vel, placerat volutpat lacus. Nunc quis diam facilisis,
+            mollis diam a, viverra lectus.
+          </p>
+          <p>
+            Suspendisse sed nibh ex. Aenean eros ligula, laoreet vel dolor sit
+            amet, bibendum finibus magna. Curabitur pretium purus quis lacus
+            volutpat commodo. Integer ut ultrices nulla. Donec sed augue
+            fringilla leo rutrum auctor. Interdum et malesuada fames ac ante
+            ipsum primis in faucibus. Suspendisse sit amet volutpat risus.
+            Curabitur pharetra orci a enim accumsan efficitur. Vivamus in
+            blandit dui. Donec dictum, purus ut tincidunt maximus, turpis erat
+            mattis augue, id sagittis ligula massa non diam. Donec vulputate
+            augue augue, in feugiat nulla imperdiet at. Nam sed urna eu lectus
+            egestas mollis. Aliquam sollicitudin lobortis placerat. Maecenas
+            gravida, velit vel porttitor iaculis, leo enim accumsan orci,
+            suscipit faucibus tellus tellus quis mi. Ut et dui nec justo
+            sollicitudin consequat eget nec est.
+          </p>
+          <p>
+            Morbi erat quam, congue et urna non, vulputate iaculis est.
+            Vestibulum mattis ultrices dapibus. In aliquet ac dolor non commodo.
+            Maecenas eu magna lobortis leo pharetra congue non id justo. Aliquam
+            suscipit, nulla in interdum dapibus, lectus ex aliquet justo, ut
+            condimentum augue odio luctus erat. Curabitur id justo sed leo
+            tristique facilisis in at ante. Vestibulum velit neque, condimentum
+            at mi quis, feugiat sodales est. Nunc pellentesque massa in aliquet
+            dignissim. Etiam laoreet lacinia velit a auctor. Vestibulum ante
+            ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+            curae; Vivamus eleifend turpis vel mauris finibus luctus. Curabitur
+            erat elit, malesuada non quam at, posuere euismod elit. Phasellus
+            luctus posuere risus, nec congue sem eleifend ac.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-section">
+      <div class="form-wrapper">
+        <h2>GA4 Form Testing</h2>
+        <form>
+          <input type="text" id="name" placeholder="Enter your name" required />
+          <p class="validationMsg" id="validateName"></p>
+          <select name="car" id="car" required>
+            <option value="" selected disabled hidden>Choose here</option>
+            <option value="ferari">Verari</option>
+            <option value="lamborgini">Lamborgenie</option>
+            <option value="bugati">Bugyati</option>
+            <option value="bentley">Bentlee</option>
+            <option value="mercedes">Merkedes</option>
+            <option value="rollsroyce">Roll Roys</option>
           </select>
+          <p class="validationMsg" id="validateCar"></p>
           <textarea
             name="opinion"
             id="opinion"
-            placeholder="Say what you want..."
             cols="30"
             rows="10"
+            placeholder="Write your opinion about that car"
           ></textarea>
-          <button style="padding: 20px 30px; width: 150px">Submit this</button>
+          <button type="button" onclick="formSubmit()">Submit</button>
         </form>
       </div>
-
-      <div
-        style="
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          flex-direction: column;
-          text-align: center;
-          width: 100%;
-          gap: 10px;
-          margin-top: 50px;
-        "
-      >
-        <div style="width: 40%">
-          <h2>Some Fact</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-            malesuada fringilla dolor. Suspendisse eget cursus quam. Nam
-            porttitor, massa ac suscipit aliquet, leo nunc pharetra turpis,
-            commodo suscipit lorem ex in orci. Integer vitae nulla vel justo
-            molestie rutrum. Aenean ut metus vel nibh consectetur semper sed eu
-            nisl. Mauris bibendum metus in dolor tincidunt cursus. Phasellus
-            varius tortor vitae eros ultrices laoreet. Donec mi dolor,
-            condimentum non lacus in, euismod ullamcorper lectus.
-          </p>
-          <p>
-            Maecenas luctus convallis sapien ut pellentesque. Morbi id orci
-            molestie, accumsan mi sit amet, fringilla ex. Nunc ornare facilisis
-            porttitor. Integer et dignissim elit. Proin dictum molestie velit,
-            sit amet fermentum orci auctor id. Nam aliquet ornare lectus, et
-            sodales est viverra sed. Vivamus eu ex aliquet, bibendum leo quis,
-            lobortis elit. Donec quis tincidunt risus. Pellentesque id sodales
-            risus. In consequat, sapien at varius laoreet, lectus leo feugiat
-            augue, sit amet sodales felis sem nec eros. Vivamus luctus feugiat
-            nisi ac elementum. Integer nulla lorem, varius at enim sodales,
-            feugiat elementum est. Donec consectetur justo augue, eget tempor
-            turpis molestie sit amet. Morbi convallis dolor id velit ultricies,
-            pellentesque tristique felis sodales. Curabitur vitae massa orci.
-          </p>
-          <p>
-            Proin non vehicula tortor. Etiam aliquet tortor vitae maximus
-            vestibulum. Nunc lacinia tincidunt tortor eu lobortis. Sed maximus
-            risus sed commodo euismod. Curabitur eros ante, pharetra ut odio
-            sed, bibendum porta elit. Praesent et massa ipsum. Suspendisse
-            maximus non nisi sed blandit. Aliquam erat volutpat. Nunc ornare
-            diam sit amet magna ornare eleifend. Morbi tortor risus, lobortis
-            non neque at, viverra pulvinar libero.
-          </p>
-          <p>
-            Sed pharetra commodo posuere. Maecenas faucibus gravida mi, vel
-            accumsan erat convallis at. Nulla aliquet turpis quam, eget
-            consectetur nisi laoreet et. Maecenas velit odio, hendrerit ac arcu
-            eu, dignissim sollicitudin urna. Cras at elit tempus, convallis
-            lorem quis, posuere tortor. In hac habitasse platea dictumst. Nam
-            sed ornare nibh. Morbi tempus et ex at lacinia. Morbi in mauris ac
-            mauris sollicitudin luctus. Nam blandit urna sit amet mattis semper.
-          </p>
-          <p>
-            Proin non pharetra tellus, sed pretium dolor. Cras a feugiat augue,
-            non bibendum turpis. Sed ultrices vulputate risus, rutrum fermentum
-            erat molestie sed. Suspendisse eu mattis sem, nec maximus mauris.
-            Nulla nisl nisi, venenatis a malesuada id, ultrices sed urna. Nullam
-            imperdiet nisi et ante tincidunt pretium. Nunc in lectus faucibus,
-            molestie lorem id, pretium augue. Phasellus congue erat vel pulvinar
-            egestas. Mauris fringilla pharetra sapien sit amet consequat.
-            Quisque pretium enim a aliquam venenatis. Maecenas eleifend tortor
-            in orci rutrum, sed semper urna venenatis. Duis eu feugiat felis,
-            vitae auctor neque. Mauris eu metus tellus. Quisque gravida quis
-            elit et efficitur. Quisque ac mattis orci, eu convallis augue.
-          </p>
-        </div>
-        <h2 style="padding: 300px 0">Keep scrolling,</h2>
-
-        <p style="padding-top: 700px">End of the page.</p>
-      </div>
     </div>
+    <script type="text/javascript" src="/js/jquery-3.2.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      //swiper function
+      const swiper = new Swiper(".swiper", {
+        // Optional parameters
+        autoHeight: true, //enable auto height
+        direction: "horizontal",
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+      //------------------------------------------------------
+
+      //forms function
+      function formSubmit() {
+        //Name validate
+        let inputName = document.getElementById("name").value;
+        let validateText;
+        if (inputName == "") {
+          validateText = "Name is required";
+        } else {
+          validateText = "";
+        }
+        document.getElementById("validateName").innerHTML = validateText;
+
+        //Car validate
+        let inputCar = document.getElementById("car").value;
+        let validateCar;
+        if (inputCar == "") {
+          validateCar = "Car is required";
+        } else {
+          validateCar = "";
+        }
+        document.getElementById("validateCar").innerHTML = validateCar;
+
+        //Opinion validate
+        let inputOpinion = document.getElementById("opinion").value;
+
+        if (inputName != "" && inputCar != "") {
+          alert("success");
+        }
+      }
+      //------------------------------------------------------
+    </script>
   </body>
 </html>

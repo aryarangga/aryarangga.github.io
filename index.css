@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  --swiper-theme-color: #fff !important;
+}
+
+.swiper-button-next:after {
+  margin-right: 30px;
+}
+
+.swiper-button-prev:after {
+  margin-left: 30px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  width: auto !important;
+  position: absolute;
+  top: 35% !important;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  color: white;
+}
+
+.swiper-pagination {
+  position: unset !important;
+  padding: 10px 0;
+  color: white;
+  cursor: pointer;
+}
+
+.swiper-pagination-bullet {
+  width: 15px !important;
+  height: 15px !important;
+  margin: 0 5px !important;
+}
+
+body {
+  font-size: 10px;
+}
+body .swiper-section {
+  width: 100%;
+  background: #1a73e8;
+}
+body .swiper-section .swiper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .swiper-section .swiper .swiper-wrapper {
+  width: 90%;
+}
+body .swiper-section .swiper .swiper-wrapper .swiper-slide {
+  width: 100%;
+  padding: 0 50px;
+  padding-top: 100px;
+  height: 520px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body .swiper-section .swiper .swiper-wrapper .swiper-slide h1 {
+  font-size: 5rem;
+  color: white;
+}
+body .swiper-section .swiper .swiper-wrapper .swiper-slide h2 {
+  font-size: 5rem;
+  color: white;
+}
+body .swiper-section .swiper .swiper-wrapper .swiper-slide p {
+  padding: 15px 0 25px 0;
+  font-size: 1.8rem;
+  color: white;
+  font-weight: 500;
+}
+body .swiper-section .swiper .swiper-wrapper .swiper-slide a {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-decoration: none;
+  color: #1a73e8;
+  border-radius: 10px;
+  background: white;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+body .content-section {
+  width: 100%;
+}
+body .content-section .content-wrapper {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  padding: 100px 50px;
+}
+body .content-section .content-wrapper h2 {
+  font-size: 4rem;
+  color: #1a73e8;
+}
+body .content-section .content-wrapper .loren-content {
+  font-size: 1.4rem;
+  margin: 30px 0;
+}
+body .content-section .content-wrapper .loren-content p {
+  line-height: 2.4rem;
+  margin-bottom: 30px;
+}
+body .form-section {
+  width: 100%;
+  margin-top: 150px;
+  background: #1a73e8;
+}
+body .form-section .form-wrapper {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: block;
+  margin: 0 auto;
+  padding: 100px 50px;
+}
+body .form-section .form-wrapper h2 {
+  width: 800px;
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 30px;
+}
+body .form-section .form-wrapper form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+body .form-section .form-wrapper form .validationMsg {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  color: red;
+  height: 10px;
+  font-size: 1rem;
+}
+body .form-section .form-wrapper form input,
+body .form-section .form-wrapper form select,
+body .form-section .form-wrapper form textarea {
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+}
+body .form-section .form-wrapper form button {
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  background: white;
+  cursor: pointer;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+}/*# sourceMappingURL=index.css.map */
