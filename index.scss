@@ -107,6 +107,19 @@ body {
       }
     }
   }
+  .video-section {
+    width: 100%;
+    .video-wrapper {
+      width: fit-content;
+      display: block;
+      margin: 0 auto;
+      padding: 100px 50px;
+      video {
+        width: 800px;
+        height: auto;
+      }
+    }
+  }
   .form-section {
     width: 100%;
     margin-top: 150px;
@@ -143,6 +156,7 @@ body {
             0 2px 4px -2px rgb(0 0 0 / 0.1);
         }
         button {
+          font-weight: 600;
           margin-top: 30px;
           padding: 20px;
           border-radius: 10px;

@@ -110,6 +110,21 @@ body .content-section .content-wrapper .loren-content p {
   line-height: 2.4rem;
   margin-bottom: 30px;
 }
+body .video-section {
+  width: 100%;
+}
+body .video-section .video-wrapper {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: block;
+  margin: 0 auto;
+  padding: 100px 50px;
+}
+body .video-section .video-wrapper video {
+  width: 800px;
+  height: auto;
+}
 body .form-section {
   width: 100%;
   margin-top: 150px;
@@ -150,6 +165,7 @@ body .form-section .form-wrapper form textarea {
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
 }
 body .form-section .form-wrapper form button {
+  font-weight: 600;
   margin-top: 30px;
   padding: 20px;
   border-radius: 10px;
